@@ -5,7 +5,7 @@
 #include "Fruit.h"
 
 class Ghost;
-class Pacman: public MovingObject
+class Pacman: public MovingObject //Pacman class is inherited from MovingObject class as it has all the features of MovingObject 
 {
 private:
 	int pellets;
