@@ -2,7 +2,7 @@
 #define GHOST
 #include "MovingObject.h"
 
-class Ghost: public MovingObject
+class Ghost: public MovingObject //Ghost class is inherited from MovingObject class as it has all the features of MovingObject
 {
 public:
 	Ghost(int c, string fileName);
